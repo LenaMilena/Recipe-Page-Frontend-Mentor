@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(247, 230, 207);
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-content{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 18px;
+}
+
+.image-omelette img{
+    margin-top: 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+.head{
+    margin-top: 15px;
+}
+
+.head h1{
+    font-family: young-serif;
+    margin-bottom: 12px;
+}
+
+.head p{
+    margin-top: 0;
+    font-family: outfit;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.preparation{
+    background-color: rgb(255, 245, 250);
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: outfit;
+
+}
+
+.preparation h4{
+    color: rgb( 123, 40, 79);
+    padding-top: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.preparation ul li::marker {
+    color: rgb(123, 49, 79);
+  }
+
+.preparation ul{
+    margin-top: 10px;
+    list-style-position: outside;
+    padding-bottom: 18px;
+    padding-left:  22px;
+}
+
+.preparation li{
+    margin-top: 6px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.ingredients, .instructions{
+    border-bottom: 0.1px rgba(85, 85, 85, 0.2) solid;
+}
+
+.ingredients h2, .instructions h2, .nutrition h2{
+    font-family: young-serif;
+    color: rgb(141, 65, 42);
+    margin-bottom: 0;
+}
+
+.ingredients ul li::marker{
+    color: rgb(141, 65, 42);
+    list-style-position: outside;
+}
+
+.ingredients ul{
+    margin-top: 20px;
+    padding-left:  22px;
+}
+
+.ingredients li, .instructions li{
+    font-family: outfit;
+    line-height: 23px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.instructions ol li::marker{
+    color: rgb(141, 65, 42);
+    list-style-position: outside;
+    font-weight: bold;
+}
+
+.instructions ol{
+    margin-top: 20px;
+    padding-left:  24px;
+}
+
+.nutrition p{
+    font-family: outfit;
+    font-size: 12px;
+}
+
+.nutrition b{
+    color:  rgb(141, 65, 42);
+}
+
+.nutrition table {
+    width: 100%;
+    font-family: outfit;
+    font-size: 12px;
+    border-collapse: collapse;
+  }
+
+.nutrition td{
+    border-bottom: 0.1px rgba(85, 85, 85, 0.2) solid;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.nutrition tr:last-child td {
+    border-bottom: none;
+  }
+
